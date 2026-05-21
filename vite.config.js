@@ -5,6 +5,7 @@ export default defineConfig({
     plugins: [
         AlpineVitePlugin()
     ],
+    base: '/CWPUSA-Data-Presentation/', 
     publicDir: "public"
 })
 
