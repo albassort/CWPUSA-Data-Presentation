@@ -1,0 +1,641 @@
+Annual Survey of Manufactures: Geographic Area Statistics: Summary Statistics for Industry Groups and Industries in the U.S. and States: 2018 - 2021,
+,
+Note: The table shown may have been modified by user selections. Some information may be missing.,
+,
+DATA NOTES,
+TABLE ID:,AM1831BASIC02
+SURVEY/PROGRAM:,Economic Surveys
+VINTAGE:,2021
+DATASET:,ASMAREA2017
+PRODUCT:,ECNSVY Annual Survey of Manufactures Annual Survey of Manufactures Area
+UNIVERSE:,None
+MLA:,"U.S. Census Bureau. ""Annual Survey of Manufactures: Geographic Area Statistics: Summary Statistics for Industry Groups and Industries in the U.S. and States: 2018 - 2021."" Economic Surveys, ECNSVY Annual Survey of Manufactures Annual Survey of Manufactures Area, Table AM1831BASIC02, 2021, https://data.census.gov/table/ASMAREA2017.AM1831BASIC02?q=am1831&g=010XX00US$0400000&n=325:N0000.00&nkd=YEAR~2021. Accessed on March 30, 2025."
+FTP URL:,https://www2.census.gov/programs-surveys/asm/data/2021
+API URL:,https://api.census.gov/data/timeseries/asm/area2017
+,
+USER SELECTIONS,
+NAICS,N0000.00: All available NAICS; 325: Chemical Manufacturing
+GEOS,"All States within United States, Puerto Rico, and the Island Areas"
+,
+EXCLUDED COLUMNS,Geographic identifier code (GEO_ID)
+,
+APPLIED FILTERS,
+2017 NAICS code (NAICS2017),"allowed values of [311, 3111, 3112, 3113, 3114, 3115, 3116, 3117, 3118, 3119, 312, 3121, 3122]"
+,
+APPLIED SORTS,None
+,
+PIVOT & GROUPING,
+PIVOT MODE,Off
+PIVOT COLUMNS,None
+ROW GROUPS,None
+VALUE COLUMNS,None
+,
+WEB ADDRESS,https://data.census.gov/table/ASMAREA2017.AM1831BASIC02?q=am1831&g=010XX00US$0400000&n=325:N0000.00&nkd=YEAR~2021
+,
+TABLE NOTES,
+,Release Date: 2022-12-15
+,"Release Schedule:
+
+The data in this file come from the 2021 Annual Survey of Manufactures data files released in December 2022. For more information about the Annual Survey of Manufactures data, see About: Annual Survey of Manufactures.
+
+
+Key Table Information:
+
+Includes only establishments of firms with payroll.
+
+Data may be subject to employment- and/or sales-size minimums that vary by industry.
+
+
+Data Items and Other Identifying Records: 
+
+Sales, value of shipments, or revenue ($1,000) 
+
+Relative standard error for estimate of sales, value of shipments, or revenue (%) 
+
+Annual payroll ($1,000) 
+
+Relative standard error for estimate of annual payroll (%) 
+
+First-quarter payroll ($1,000) 
+
+Relative standard error for estimate of first-quarter payroll (%) 
+
+Number of employees
+
+Relative standard error for estimate of number of employees (%) 
+
+Production workers for pay period including March 12
+
+Relative standard error for estimate of production workers for pay period including March 12 (%) 
+
+Production workers annual hours (1,000) 
+
+Relative standard error for estimate of production workers annual hours (%) 
+
+Production workers annual wages ($1,000) 
+
+Relative standard error for estimate of production workers annual wages (%) 
+
+Total cost of materials ($1,000) 
+
+Relative standard error for estimate of total cost of materials (%) 
+
+Value added ($1,000) 
+
+Relative standard error for estimate of value added (%) 
+
+Total capital expenditures (new and used) ($1,000) 
+
+Relative standard error for estimate of total capital expenditures (new and used) (%) 
+
+Range indicating percent of total sales, value of shipments, or revenue imputed 
+
+Range indicating percent of total annual payroll imputed 
+
+Range indicating percent of total employees imputed 
+
+
+
+
+Geography Coverage:
+
+The data are shown for employer establishments and firms for the U.S. and State levels that vary by industry.
+
+For information about 2021 Annual Survey of Manufactures, see About: Annual Survey of Manufactures.
+
+
+Industry Coverage:
+
+The data are shown at the 2-through 4-digit 2017 NAICS code levels for U.S. and States. For information about NAICS, see Annual Survey of Manufactures (ASM): Technical Documentation: ASM Product Class Codes and Descriptions.
+
+
+Footnotes:
+
+Not applicable.
+
+
+FTP Download:
+
+Download the entire table at:  https://www2.census.gov/programs-surveys/asm/data/2021/AM1831BASIC02.zip
+
+
+API Information:
+
+Annual Survey of Manufactures API data are housed in the Census Bureau API. For more information, see ASM API
+
+
+Methodology:
+
+To maintain confidentiality, the U.S. Census Bureau suppresses data to protect the identity of any business or individual. The census results in this file contain sampling and/or nonsampling error. Data users who create their own estimates using data from this file should cite the U.S. Census Bureau as the source of the original data only.
+
+To comply with disclosure avoidance guidelines, data rows with fewer than three contributing establishments are not presented. Additionally, establishment counts are suppressed when other select statistics in the same row are suppressed. For detailed information about the methods used to collect and produce statistics, including sampling, eligibility, questions, data collection and processing, data quality, review, weighting, estimation, coding operations, confidentiality protection, sampling error, nonsampling error, and more, see Annual Survey of Manufactures (ASM): Technical Documentation: Annual Survey of Manufactures Methodology.
+
+
+Symbols:
+
+D - Withheld to avoid disclosing data of individual companies; data are included in higher level totals
+
+N - Not available or not comparable
+
+S - Estimate does not meet publication standards because of high sampling variability, poor response quality, or other concerns about the estimate quality. Unpublished estimates derived from this table by subtraction are subject to these same limitations and should not be attributed to the U.S. Census Bureau. For a description of publication standards and the total quantity response rate, see link to program methodology page.
+
+X - Not applicable
+
+A - Relative standard error of 100% or more
+
+r - Revised (represented as a superscript)
+
+s - Relative standard error is 40 percent or more and less than 100 percent (data variable displayed as a superscript)
+
+For a complete list of all economic programs symbols, see the Economic Census: Technical Documentation: Data Dictionary.
+
+
+Source:
+
+U.S. Census Bureau, 2021 Annual Survey of Manufactures (ASM)
+
+For information about the Annual Survey of Manufactures (ASM), see Business and Economy: Annual Survey of Manufactures (ASM)
+
+
+Contact Information:
+
+U.S. Census Bureau
+
+For general inquiries:
+
+(800) 242-2184/ (301) 763-5154
+
+ewd.surveys@census.gov
+
+For specific data questions:
+
+(844) 303-7713
+
+For additional contacts, see  Annual Survey of Manufactures (ASM): About: Contact Us"
+,
+,
+,
+,
+,
+,
+,
+COLUMN NOTES,
+Geographic identifier code (GEO_ID),"Represents the geography shown for these data. The following geographic levels are shown for economic censuses and related programs:
+
+   *  United States. For the Economic Census, this represents data for the 50 states and the District of Columbia.  For the Mining sector (NAICS 21) this also includes establishments physically located in the Atlantic, North Gulf of Mexico, and Pacific Offshore Areas.  It excludes the 5 Island Areas (American Samoa, Guam, the Northern Mariana Islands, Puerto Rico, and the US Virgin Islands); these areas are published separately in the Economic Census of Island Areas. 
+The GEO_ID for this record is: ""0100000US"".
+
+  *  Offshore Areas. The Mining sector for the Economic Census publishes totals for businesses located in Offshore Areas. These areas are published using a Geographic Component code for the United States (GEO_COMP = 'R0'). 
+The GEO_ID for this record is: ""01000R0US"".
+
+  *  States. Includes all 50 states and the District of Columbia. In addition, the Census Bureau also treats the island areas as state equivalents.  The island areas include Puerto Rico, the Virgin Islands, Guam, The Northern Mariana Islands, and American Samoa.  
+The syntax of GEO_ID for these records is: ""0400000US"" plus the FIPS State code (ST).
+
+  *  Counties or county equivalents. Counties are the primary divisions of States, except in Louisiana where they are called parishes and in Alaska where they are called boroughs and census areas. Maryland, Missouri, Nevada, and Virginia have one place or more that is independent of any county organization and constitutes primary divisions of their States. These places are treated as counties. The District of Columbia is also treated as a county-equivalent area.  
+The Economic Census of Island Areas also has geographies treated as county equivalents for census purposes.  These include Islands and Districts in American Samoa, Districts in Guam, Municipalities in the Northern Mariana Islands, Municipios in Puerto Rico, and Islands in the Virgin Islands. 
+The syntax of GEO_ID for these records is: ""0500000US"" plus the FIPS State code (ST) plus the FIPS County code (COUNTY).
+
+  *  Economic Places. The term ""economic places"" includes boroughs, towns, and villages, except boroughs in Alaska and New York. For the Economic Census purposes, places are defined as incorporated municipalities with populations of at least 2,500 based on the latest 5-year ACS estimates, or other latest available estimates. In addition, unincorporated municipalities (also known as Census Designated Places or CDPs) with populations of at least 2,500 are also covered.  Finally, incorporated and unicorporated places with at least 2,500 jobs, based on the latest 5-year ACS estimates or other latest available estimates, are also included in the Economic Census. 
+ For the Economic Census, ""Balances of Counties"" are also recognized as ""economic places."" A ""balance of county"" is the residual area of a county (or equivalent entity) outside any entity(s) recognized separately as a place by the preceding place definitions. 
+The syntax of GEO_ID for these records is: ""E600000US"" plus the FIPS State code (ST) plus the FIPS County code (COUNTY) plus the FIPS Place code (PLACE).
+
+  *  Economic Part Places. Includes the parts of boroughs, towns, and villages (except boroughs in Alaska and New York) that cross county boundaries. 
+The syntax of GEO_ID for these records is: ""E650000US"" plus the FIPS State code (ST) plus the FIPS County code (COUNTY) plus the FIPS Place code (PLACE).
+
+  *  Consolidated Cities. A consolidated government is a unit of local government for which the functions of an incorporated place and its county or minor civil division (MCD) have merged. The legal aspects of this action may result in both the primary incorporated place and the county or MCD continuing to exist as legal entities, even though the county or MCD performs few or no governmental functions and has few or no elected officials. Where this occurs, and where one or more other incorporated places in the county or MCD continue to function as separate governments, even though they have been included in the consolidated government, the primary incorporated place is referred to as a ""consolidated city."" 
+The syntax of GEO_ID for these records is: ""1700000US"" plus the FIPS State code (ST) plus the Consolidated City code (CONSCITY).
+
+  *  Census Regions. For the Commodity Flow Survey and for the Economic Census data for Construction Industries, separate data are published for Census Regions. Census Regions are groupings of States that subdivide the United States for the presentation of data. There are four regions--Northeast, Midwest, South, and West. 
+The syntax of GEO_ID for these records is: ""0200000US"" plus the Census Region code (CENREG).
+
+  *  Census Divisions. For the Commodity Flow Survey, separate data are published for Census Divisions. Census Divisions are smaller groupings of States that subdivide the United States for the presentation of data. There are nine divisions--New England, Middle Atlantic, East North Central, West North Central, South Atlantic, East South Central, West South Central, Mountain, and Pacific.
+The syntax of GEO_ID for these records is: ""0300000US"" plus the Census Division code (CENDIV).
+
+  *  Puerto Rico Planning Regions. For the Economic Census of Island Areas, separate data are published for the Puerto Rico Planning Regions. Planning regions are groupings of Counties (Municipios) that subdivide Puerto Rico. There are eleven regions - Aguadilla, Arecibo, Caguas, Carolina, Cayey, Guayama, Humacao, Manat&#237;, Mayag&uuml;ez, Ponce, and San Juan. 
+The syntax of GEO_ID for these records is: ""9040000US"" plus the Planning Region code (PLANREG).
+
+  *  Metropolitan areas.  A core based statistical area (CBSA) contains a core area with a substantial population nucleus, together with adjacent communities having a high degree of social and economic integration with that core. CBSAs are differentiated into metropolitan and micropolitan statistical areas based on size criteria. Both metropolitan and micropolitan statistical areas are defined in terms of entire counties.  CBSAs are applicable to every state in the United States and to Puerto Rico; there are no CBSAs in any of the other island areas.
+  *  Metropolitan Statistical Areas (metro areas) and Micropolitan Statistical Areas (micro areas).  Metro areas have at least one urbanized area of 50,000 or more population, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties. Micro areas have at least one urban cluster of at least 10,000 but less than 50,000 population, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties. 
+The syntax of GEO_ID for metro and micro areas that are totally within a state is: ""310"" plus the geographic variant code (i.e. ""M4"") plus ""00US"" plus the CBSA code (MSA). The syntax of GEO_ID for the state parts of metro and micro areas that cross state boundaries is: ""320"" plus the geographic variant code plus ""00US"" plus the FIPS State code (ST) plus the CBSA code (MSA).
+
+  *  Metropolitan Divisions (metro divisions).  If specified criteria are met, a metro area containing a single core with a population of 2.5 million or more may be subdivided to form smaller groupings of counties referred to as Metropolitan Divisions. 
+The syntax of GEO_ID for metro divisions totally within a state is: ""314"" plus the geographic variant code (i.e. ""M4"") plus ""00US"" plus the CBSA code (MSA) plus the Metro Division code (MD). The syntax of GEO_ID for the state parts of metro divisions that cross state boundaries is: ""323"" plus the geographic variant code plus ""00US"" plus the FIPS State code (ST) plus the CBSA code (MSA) plus the Metro Division code (MD).
+
+  *  Combined Statistical Areas (combined areas).  If specified criteria are met, adjacent metro and micro areas, in various combinations, may become the components of a new set of areas called Combined Statistical Areas. The areas that combine retain their own designations as metro or micro areas within the larger combined area. 
+The syntax of GEO_ID for combined areas totally within a state is: ""330"" plus the geograhic variant code (i.e. ""M4"") plus ""00US"" plus the Combined Statistical Area code (CSA). The syntax of GEO_ID for the state parts of combined areas that cross state boundaries is: ""340"" plus the geographic variant code plus ""00US"" plus the FIPS State code (ST) plus the Combined Statistical Area code (CSA).
+
+
+  *  Not in metropolitan or micropolitan statistical area. This represents the sum of the counties within a state which are not defined as part of a Core-Based Statistical Area (a Combined Statistical Area, Metropolitan Statistical Area, Micropolitan Statistical Area, or Metropolitan Division).  These non-metro data will be published as a Geo Component of the state (GEO_COMP = 'G0'). For states where all counties in the state are considered ""metropolitan"", there is no Non-Metro data or record presented. 
+The syntax of GEO_ID for these records is: ""04000G0US"" plus the FIPS State code (ST).
+
+  *  ZIP Codes. ZIP is an acronym for Zone Improvement Plan. A ZIP Code is a 5-digit code that identifies a specific geographic delivery area in the United States to aid in mail distribution. ZIP Codes can represent an area within a state (an area that may or may not cross county boundaries), an area that crosses state boundaries (an unusual condition), or a single building or company that has a very high mail volume.
+The syntax of GEO_ID for these records is: ""8610000US"" plus the ZIP Code (ZIPCODE)."
+,
+,
+,
+,
+,
+Geographic Area Name (NAME),"Represents the geography shown for these data. The following geographic levels are shown for economic censuses and related programs:
+
+   *  United States. For the Economic Census, this represents data for the 50 states and the District of Columbia.  For the Mining sector (NAICS 21) this also includes establishments physically located in the Atlantic, North Gulf of Mexico, and Pacific Offshore Areas.  It excludes the 5 Island Areas (American Samoa, Guam, the Northern Mariana Islands, Puerto Rico, and the US Virgin Islands); these areas are published separately in the Economic Census of Island Areas. 
+The GEO_ID for this record is: ""0100000US"".
+
+  *  Offshore Areas. The Mining sector for the Economic Census publishes totals for businesses located in Offshore Areas. These areas are published using a Geographic Component code for the United States (GEO_COMP = 'R0'). 
+The GEO_ID for this record is: ""01000R0US"".
+
+  *  States. Includes all 50 states and the District of Columbia. In addition, the Census Bureau also treats the island areas as state equivalents.  The island areas include Puerto Rico, the Virgin Islands, Guam, The Northern Mariana Islands, and American Samoa.  
+The syntax of GEO_ID for these records is: ""0400000US"" plus the FIPS State code (ST).
+
+  *  Counties or county equivalents. Counties are the primary divisions of States, except in Louisiana where they are called parishes and in Alaska where they are called boroughs and census areas. Maryland, Missouri, Nevada, and Virginia have one place or more that is independent of any county organization and constitutes primary divisions of their States. These places are treated as counties. The District of Columbia is also treated as a county-equivalent area.  
+The Economic Census of Island Areas also has geographies treated as county equivalents for census purposes.  These include Islands and Districts in American Samoa, Districts in Guam, Municipalities in the Northern Mariana Islands, Municipios in Puerto Rico, and Islands in the Virgin Islands. 
+The syntax of GEO_ID for these records is: ""0500000US"" plus the FIPS State code (ST) plus the FIPS County code (COUNTY).
+
+  *  Economic Places. The term ""economic places"" includes boroughs, towns, and villages, except boroughs in Alaska and New York. For the Economic Census purposes, places are defined as incorporated municipalities with populations of at least 2,500 based on the latest 5-year ACS estimates, or other latest available estimates. In addition, unincorporated municipalities (also known as Census Designated Places or CDPs) with populations of at least 2,500 are also covered.  Finally, incorporated and unicorporated places with at least 2,500 jobs, based on the latest 5-year ACS estimates or other latest available estimates, are also included in the Economic Census. 
+ For the Economic Census, ""Balances of Counties"" are also recognized as ""economic places."" A ""balance of county"" is the residual area of a county (or equivalent entity) outside any entity(s) recognized separately as a place by the preceding place definitions. 
+The syntax of GEO_ID for these records is: ""E600000US"" plus the FIPS State code (ST) plus the FIPS County code (COUNTY) plus the FIPS Place code (PLACE).
+
+  *  Economic Part Places. Includes the parts of boroughs, towns, and villages (except boroughs in Alaska and New York) that cross county boundaries. 
+The syntax of GEO_ID for these records is: ""E650000US"" plus the FIPS State code (ST) plus the FIPS County code (COUNTY) plus the FIPS Place code (PLACE).
+
+  *  Consolidated Cities. A consolidated government is a unit of local government for which the functions of an incorporated place and its county or minor civil division (MCD) have merged. The legal aspects of this action may result in both the primary incorporated place and the county or MCD continuing to exist as legal entities, even though the county or MCD performs few or no governmental functions and has few or no elected officials. Where this occurs, and where one or more other incorporated places in the county or MCD continue to function as separate governments, even though they have been included in the consolidated government, the primary incorporated place is referred to as a ""consolidated city."" 
+The syntax of GEO_ID for these records is: ""1700000US"" plus the FIPS State code (ST) plus the Consolidated City code (CONSCITY).
+
+  *  Census Regions. For the Commodity Flow Survey and for the Economic Census data for Construction Industries, separate data are published for Census Regions. Census Regions are groupings of States that subdivide the United States for the presentation of data. There are four regions--Northeast, Midwest, South, and West. 
+The syntax of GEO_ID for these records is: ""0200000US"" plus the Census Region code (CENREG).
+
+  *  Census Divisions. For the Commodity Flow Survey, separate data are published for Census Divisions. Census Divisions are smaller groupings of States that subdivide the United States for the presentation of data. There are nine divisions--New England, Middle Atlantic, East North Central, West North Central, South Atlantic, East South Central, West South Central, Mountain, and Pacific.
+The syntax of GEO_ID for these records is: ""0300000US"" plus the Census Division code (CENDIV).
+
+  *  Puerto Rico Planning Regions. For the Economic Census of Island Areas, separate data are published for the Puerto Rico Planning Regions. Planning regions are groupings of Counties (Municipios) that subdivide Puerto Rico. There are eleven regions - Aguadilla, Arecibo, Caguas, Carolina, Cayey, Guayama, Humacao, Manat&#237;, Mayag&uuml;ez, Ponce, and San Juan. 
+The syntax of GEO_ID for these records is: ""9040000US"" plus the Planning Region code (PLANREG).
+
+  *  Metropolitan areas.  A core based statistical area (CBSA) contains a core area with a substantial population nucleus, together with adjacent communities having a high degree of social and economic integration with that core. CBSAs are differentiated into metropolitan and micropolitan statistical areas based on size criteria. Both metropolitan and micropolitan statistical areas are defined in terms of entire counties.  CBSAs are applicable to every state in the United States and to Puerto Rico; there are no CBSAs in any of the other island areas.
+  *  Metropolitan Statistical Areas (metro areas) and Micropolitan Statistical Areas (micro areas).  Metro areas have at least one urbanized area of 50,000 or more population, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties. Micro areas have at least one urban cluster of at least 10,000 but less than 50,000 population, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties. 
+The syntax of GEO_ID for metro and micro areas that are totally within a state is: ""310"" plus the geographic variant code (i.e. ""M4"") plus ""00US"" plus the CBSA code (MSA). The syntax of GEO_ID for the state parts of metro and micro areas that cross state boundaries is: ""320"" plus the geographic variant code plus ""00US"" plus the FIPS State code (ST) plus the CBSA code (MSA).
+
+  *  Metropolitan Divisions (metro divisions).  If specified criteria are met, a metro area containing a single core with a population of 2.5 million or more may be subdivided to form smaller groupings of counties referred to as Metropolitan Divisions. 
+The syntax of GEO_ID for metro divisions totally within a state is: ""314"" plus the geographic variant code (i.e. ""M4"") plus ""00US"" plus the CBSA code (MSA) plus the Metro Division code (MD). The syntax of GEO_ID for the state parts of metro divisions that cross state boundaries is: ""323"" plus the geographic variant code plus ""00US"" plus the FIPS State code (ST) plus the CBSA code (MSA) plus the Metro Division code (MD).
+
+  *  Combined Statistical Areas (combined areas).  If specified criteria are met, adjacent metro and micro areas, in various combinations, may become the components of a new set of areas called Combined Statistical Areas. The areas that combine retain their own designations as metro or micro areas within the larger combined area. 
+The syntax of GEO_ID for combined areas totally within a state is: ""330"" plus the geograhic variant code (i.e. ""M4"") plus ""00US"" plus the Combined Statistical Area code (CSA). The syntax of GEO_ID for the state parts of combined areas that cross state boundaries is: ""340"" plus the geographic variant code plus ""00US"" plus the FIPS State code (ST) plus the Combined Statistical Area code (CSA).
+
+
+  *  Not in metropolitan or micropolitan statistical area. This represents the sum of the counties within a state which are not defined as part of a Core-Based Statistical Area (a Combined Statistical Area, Metropolitan Statistical Area, Micropolitan Statistical Area, or Metropolitan Division).  These non-metro data will be published as a Geo Component of the state (GEO_COMP = 'G0'). For states where all counties in the state are considered ""metropolitan"", there is no Non-Metro data or record presented. 
+The syntax of GEO_ID for these records is: ""04000G0US"" plus the FIPS State code (ST).
+
+  *  ZIP Codes. ZIP is an acronym for Zone Improvement Plan. A ZIP Code is a 5-digit code that identifies a specific geographic delivery area in the United States to aid in mail distribution. ZIP Codes can represent an area within a state (an area that may or may not cross county boundaries), an area that crosses state boundaries (an unusual condition), or a single building or company that has a very high mail volume.
+The syntax of GEO_ID for these records is: ""8610000US"" plus the ZIP Code (ZIPCODE)."
+,
+,
+,
+,
+,
+2017 NAICS code (NAICS2017),"The North American Industry Classification System (NAICS) was developed by representatives from the United States, Canada, and Mexico and replaces each country's separate classification system with one uniform system for classifying industries. In the United States, NAICS replaces the Standard Industrial Classification, a system that Federal, State, and local governments, the business community, and the general public have used since the 1930s. This industry classification system enables North American Free Trade Agreement (NAFTA) partners-- the United States, Canada, and Mexico-- to better compare economic and financial statistics and ensure that such statistics keep pace with the changing economy."
+Meaning of NAICS Code (NAICS2017_LABEL),"The North American Industry Classification System (NAICS) was developed by representatives from the United States, Canada, and Mexico and replaces each country's separate classification system with one uniform system for classifying industries. In the United States, NAICS replaces the Standard Industrial Classification, a system that Federal, State, and local governments, the business community, and the general public have used since the 1930s. This industry classification system enables North American Free Trade Agreement (NAFTA) partners-- the United States, Canada, and Mexico-- to better compare economic and financial statistics and ensure that such statistics keep pace with the changing economy."
+Year (YEAR),The reference year for the data.
+"Sales, value of shipments, or revenue ($1,000) (RCPTOT)","General Definition
+
+Sales, value of shipments, or revenue refers to all appropriate dollar volume measures including total sales, value of shipments, revenue, receipts, or business done at any time during the census year, whether or not payment was received during the census year, by domestic establishments (excluding foreign subsidiaries) within the scope of the economic census. Detailed descriptions of each are included in the sector-specific information below.
+
+
+Data are shown in thousands of dollars ($1,000).
+
+
+
+Sector-Specific Information
+
+
+
+Manufacturing Sector
+
+Includes the net selling values (exclusive of freight and excise taxes) of all products shipped including installation and repair, sales of scrap, and sales of products bought and sold without further processing. Included are all products physically shipped by the establishments, whether sold, transferred to other plants of the same firm, or shipped on consignments. For products transferred to other establishments of the same firm, or prepared on a custom or toll basis, firms were requested to report the estimated value, not merely the cost of producing the product.
+
+
+NAPCS collection code sales, value of shipments, or revenue as % of total sales, value of shipments, or revenue of establishments with the NAPCS collection code (%)
+
+General Definition
+
+Sales, value of shipments, or revenue of a NAPCS collection code as a percent of total sales, value of shipments, or revenue of an industry handling the NAPCS collection code."
+,
+"Relative standard error for estimate of sales, value of shipments, or revenue (%) (RCPTOT_S)","This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+"Annual payroll ($1,000) (PAYANN)","General Definition
+
+This definition of payroll is the same as that used by the Internal Revenue Service (IRS) on Forms 941 or 944 as taxable Medicare Wages and Tips (even if not subject to income or FICA tax).  If an employee works at more than one location, the payroll is included in the one location where they spend most of their time.
+
+
+Payroll includes all forms of compensation paid during the reporting year to all employees, such as salaries, wages, tips and gratuities, commissions, bonuses, vacation allowances, sick leave pay, dismissal pay, the spread on stock options that is taxable to employees as income (except for the manufacturing and mining industries who include this in fringe benefits), and employee contributions to qualified pension plans. For corporations, payroll includes amounts paid to officers and executives.
+
+
+Excluded from payroll are employer's costs for fringe benefits such as payroll taxes, employer-paid insurance premiums, pension plans, and other employer-paid benefits. For unincorporated businesses, payroll does not include profit or other compensation of proprietors or partners. It does not include payrolls of leased departments nor annuities or supplemental unemployment compensation benefits, even if income tax was withheld. Payroll is reported before deductions for social security, income tax, insurance, union dues, etc.
+
+
+""Production workers"" refers to workers up through the line-supervisor level engaged in fabricating, processing, assembling, inspecting, receiving, packing, warehousing, shipping (but not delivering) maintenance, repair, janitorial, guard services, product development, auxiliary production for the plant's own use (e.g., power plant workers), recordkeeping, and other closely associated services (including truck drivers delivering ready-mixed concrete).
+
+
+Note: For employment and related fields (payroll, production hours, benefits), respondents were asked to report only those full- and part-time employees whose payroll was reported on the IRS Forms 941 or 944 filing for the Employer Identification Number (EIN) used by that establishment. Other temporary workers and workers whose payroll was reported under a different firm's EIN were reported elsewhere. Comparisons of census-year data and data for earlier years should be used with caution.
+
+
+Data are shown in thousands of dollars ($1,000).
+
+
+Sector-Specific Information
+
+
+
+Manufacturing Sector
+
+Excluded are payments to members of Armed Forces and pensioners carried on the active payrolls of manufacturing establishments.
+
+
+First-quarter payroll ($1,000)
+
+First-quarter payroll includes the payroll paid before deductions to persons employed at any time during the quarter from January to March of the reporting year.  Data are shown in thousands of dollars ($1,000)."
+,
+,
+Relative standard error for estimate of annual payroll (%) (PAYANN_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+"First-quarter payroll ($1,000) (PAYQTR1)","General Definition
+
+This definition of payroll is the same as that used by the Internal Revenue Service (IRS) on Forms 941 or 944 as taxable Medicare Wages and Tips (even if not subject to income or FICA tax).  If an employee works at more than one location, the payroll is included in the one location where they spend most of their time.
+
+
+Payroll includes all forms of compensation paid during the reporting year to all employees, such as salaries, wages, tips and gratuities, commissions, bonuses, vacation allowances, sick leave pay, dismissal pay, the spread on stock options that is taxable to employees as income (except for the manufacturing and mining industries who include this in fringe benefits), and employee contributions to qualified pension plans. For corporations, payroll includes amounts paid to officers and executives.
+
+
+Excluded from payroll are employer's costs for fringe benefits such as payroll taxes, employer-paid insurance premiums, pension plans, and other employer-paid benefits. For unincorporated businesses, payroll does not include profit or other compensation of proprietors or partners. It does not include payrolls of leased departments nor annuities or supplemental unemployment compensation benefits, even if income tax was withheld. Payroll is reported before deductions for social security, income tax, insurance, union dues, etc.
+
+
+""Production workers"" refers to workers up through the line-supervisor level engaged in fabricating, processing, assembling, inspecting, receiving, packing, warehousing, shipping (but not delivering) maintenance, repair, janitorial, guard services, product development, auxiliary production for the plant's own use (e.g., power plant workers), recordkeeping, and other closely associated services (including truck drivers delivering ready-mixed concrete).
+
+
+Note: For employment and related fields (payroll, production hours, benefits), respondents were asked to report only those full- and part-time employees whose payroll was reported on the IRS Forms 941 or 944 filing for the Employer Identification Number (EIN) used by that establishment. Other temporary workers and workers whose payroll was reported under a different firm's EIN were reported elsewhere. Comparisons of census-year data and data for earlier years should be used with caution.
+
+
+Data are shown in thousands of dollars ($1,000).
+
+
+Sector-Specific Information
+
+
+
+Manufacturing Sector
+
+Excluded are payments to members of Armed Forces and pensioners carried on the active payrolls of manufacturing establishments.
+
+
+First-quarter payroll ($1,000)
+
+First-quarter payroll includes the payroll paid before deductions to persons employed at any time during the quarter from January to March of the reporting year.  Data are shown in thousands of dollars ($1,000)."
+,
+,
+Relative standard error for estimate of first-quarter payroll (%) (PAYQTR1_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+Number of employees (EMP),"General Definition
+
+This definition of paid employees is the same as that used by the Internal Revenue Service (IRS) on Forms 941 or 944. Paid employees consist of full- and part-time employees, including salaried officers and executives of corporations and salaried members of professional service organizations or associations, who were on the payroll during the pay period including March 12. Included are employees on paid sick leave, paid holidays, and paid vacations.
+
+Excluded are proprietors and partners of unincorporated businesses; independent (nonemployee) agents; full- and part-time leased employees whose payroll was filed under an employee leasing company's Employer Identification Number (EIN); temporary staffing obtained from a staffing service; employees in leased departments; and subcontractors and their employees.
+
+""Production workers"" refers to workers up through the line-supervisor level engaged in fabricating, processing, assembling, inspecting, receiving, packing, warehousing, shipping (but not delivering) maintenance, repair, janitorial, guard services, product development, auxiliary production for the plant's own use (e.g., power plant workers), recordkeeping, and other closely associated services (including truck drivers delivering ready-mixed concrete).
+
+Note: For employment and related fields (payroll, production hours, benefits), respondents were asked to report only those full- and part-time employees whose payroll was reported on the IRS Forms 941 or 944 filing for the Employer Identification Number (EIN) used by that establishment. Other temporary workers and workers whose payroll was reported under a different firm's EIN were reported elsewhere. Comparisons of census-year data and data for earlier years should be used with caution.
+
+Sector-Specific Information
+
+Manufacturing Sector
+
+The ""all employees"" number is the number of production workers who were on the payroll for the pay period including March 12 plus the number of other employees who were on the payroll in mid-March.
+
+The ""production workers"" number includes workers (up through the line-supervisor level) engaged in fabricating, processing, assembling, inspecting, receiving, storing, handling, packing, warehousing, shipping (but not delivering), maintenance, repair, janitorial and guard services, product development, auxiliary production for plant's own use (e.g., power plant), recordkeeping, and other services closely associated with these production operations at the establishment covered by the report. Employees above the working-supervisor level are excluded from this item. This ""production workers"" number is shown for each of the production workers who were on the payroll during the pay periods including the 12th of March, June, September, and December.
+
+The ""other employees"" number covers nonproduction employees of the manufacturing establishment, including those engaged in factory supervision above the line-supervisor level. It includes sales (including driver-salespersons), sales delivery (highway truck drivers and their helpers), advertising, credit, collection, installation and servicing of own products, clerical and routine office functions, executive, purchasing, financing, legal, personnel (including cafeteria, medical, etc.), professional, and technical employees. Also included are employees on the payroll of the manufacturing establishment engaged in the construction of major additions or alterations utilized as a separate work force."
+,
+Relative standard error for estimate of number of employees (%) (EMP_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+Production workers for pay period including March 12 (EMPQ1PW),"General Definition
+
+Quarterly Production Worker includes workers (up through the line-supervisor level) engaged in fabricating, processing, assembling, inspecting, receiving, storing, handling, packing, warehousing, shipping (but not delivering), maintenance, repair, janitorial and guard services, product development, auxiliary production for plant's own use (e.g., power plant), recordkeeping, and other services closely associated with these production operations at the establishment covered by the report. Employees above the working-supervisor level are excluded from this item. This ""quarterly production workers"" number is shown for each of the production workers who were on the payroll during the pay periods including the 12th of March, June, September, and December. 
+ 
+Each quarter are identified as:
+
+  *  Quarter 1 of the survey year, March 12: Production workers for pay period including March 12
+
+  *  Quarter 2 of the survey year, June 12: Production workers for pay period including June 12
+
+  *  Quarter 3 of the survey year, September 12: Production workers for pay period including September 12
+
+  *  Quarter 4 of the survey year, December 12: Production workers for pay period including December 12"
+Relative standard error for estimate of production workers for pay period including March 12 (%) (EMPQ1PW_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+"Production workers annual hours (1,000) (HOURS)","This item covers all hours worked or paid for at the manufacturing plant, including actual overtime hours (not straight-time equivalent hours). It excludes hours paid for vacations, holidays, or sick leave when the employee is not at the establishment.
+
+
+Note: Beginning with the 2006 ASM, for employment and related fields (payroll, production hours, benefits), respondents were asked to report only those full- and part-time employees whose payroll was reported on the IRS Form 941 filing for the Employer Identification Number (EIN) used by that manufacturing establishment. Other temporary workers and workers whose payroll was reported under a different company's EIN were reported elsewhere on the form. In 2002, these data constituted between 1 and 1 1/2% of the total for these fields. Comparisons with data prior to 2006 should be used with caution."
+Relative standard error for estimate of production workers annual hours (%) (HOURS_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+"Production workers annual wages ($1,000) (PAYANPW)","General Definition
+
+This definition of payroll is the same as that used by the Internal Revenue Service (IRS) on Forms 941 or 944 as taxable Medicare Wages and Tips (even if not subject to income or FICA tax).  If an employee works at more than one location, the payroll is included in the one location where they spend most of their time.
+
+
+Payroll includes all forms of compensation paid during the reporting year to all employees, such as salaries, wages, tips and gratuities, commissions, bonuses, vacation allowances, sick leave pay, dismissal pay, the spread on stock options that is taxable to employees as income (except for the manufacturing and mining industries who include this in fringe benefits), and employee contributions to qualified pension plans. For corporations, payroll includes amounts paid to officers and executives.
+
+
+Excluded from payroll are employer's costs for fringe benefits such as payroll taxes, employer-paid insurance premiums, pension plans, and other employer-paid benefits. For unincorporated businesses, payroll does not include profit or other compensation of proprietors or partners. It does not include payrolls of leased departments nor annuities or supplemental unemployment compensation benefits, even if income tax was withheld. Payroll is reported before deductions for social security, income tax, insurance, union dues, etc.
+
+
+""Production workers"" refers to workers up through the line-supervisor level engaged in fabricating, processing, assembling, inspecting, receiving, packing, warehousing, shipping (but not delivering) maintenance, repair, janitorial, guard services, product development, auxiliary production for the plant's own use (e.g., power plant workers), recordkeeping, and other closely associated services (including truck drivers delivering ready-mixed concrete).
+
+
+Note: For employment and related fields (payroll, production hours, benefits), respondents were asked to report only those full- and part-time employees whose payroll was reported on the IRS Forms 941 or 944 filing for the Employer Identification Number (EIN) used by that establishment. Other temporary workers and workers whose payroll was reported under a different firm's EIN were reported elsewhere. Comparisons of census-year data and data for earlier years should be used with caution.
+
+
+Data are shown in thousands of dollars ($1,000).
+
+
+Sector-Specific Information
+
+
+
+Manufacturing Sector
+
+Excluded are payments to members of Armed Forces and pensioners carried on the active payrolls of manufacturing establishments.
+
+
+First-quarter payroll ($1,000)
+
+First-quarter payroll includes the payroll paid before deductions to persons employed at any time during the quarter from January to March of the reporting year.  Data are shown in thousands of dollars ($1,000)."
+,
+,
+Relative standard error for estimate of production workers annual wages (%) (PAYANPW_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+"Total cost of materials ($1,000) (CSTMTOT)","General Definition
+
+This term refers to the total costs for materials.  It includes freight charges and other direct charges incurred by the establishment in acquiring these supplies and/or materials used throughout the year.
+
+
+Sector-Specific Information
+
+
+
+Manufacturing Sector
+
+This term refers to the total costs for materials.  It includes freight charges and other direct charges incurred by the establishment in acquiring these supplies and/or materials used throughout the year.
+
+
+Total costs of materials are comprised of five cost types that were collected for the Manufacturing industry:
+
+
+  *  Cost of materials, packaging, etc. used ($1,000)
+
+  *  Cost of resales ($1,000)
+
+  *  Cost of purchased fuels consumed ($1,000)
+
+  *  Cost of purchased electricity ($1,000)
+
+  *  Cost of contract work ($1,000)
+
+
+
+For Manufacturing Sector, the five types of costs are defined as:
+
+
+  *  Cost of materials, packaging etc. used - Materials, packaging, parts, components, containers, etc. It includes the cost of materials consumed, whether purchased by the individual establishment from other firms, transferred to it from other establishments of the same firm, or withdrawn from inventory during the year. Establishments producing items subsequently consumed in further production, reported their cost of original materials consumed. Including all raw materials, semi-finished goods, parts, containers, scrap, and supplies put into production or used as operating supplies and for repair and maintenance during the year. Excludes materials, supplies, machinery, and equipment chargeable to fixed asset accounts and used in the construction of new structures or additions to establishments, or new machinery and equipment.
+
+  *  Cost of resales - Cost of products bought and sold in the same condition.
+
+  *  Cost of purchased fuels consumed - Includes the cost of fuels consumed, whether purchased by the individual establishment from other firms, transferred to it from other establishments of the same firm, or withdrawn from inventory during the year.
+
+  *  Cost of purchased electricity - Cost of purchased electric energy represents the amount actually used during the year for heat and power. In addition, information was collected on the quantity of electric energy generated by the establishment and the quantity of electric energy sold or transferred to other plants of the same firm.
+
+  *  Cost of contract work - Cost of work done by others on materials furnished by the manufacturing establishment. The actual fee a firm pays to another firm to perform a service.
+
+
+
+In addition to the total cost of materials, which every establishment was required to report, information also was collected for most manufacturing industries on the consumption of major materials used in manufacturing. The inquiries were restricted to those materials that were important parts of the cost of production in a particular industry and for which cost information was available from manufacturers' records. The aggregate of the cost of materials figures for industry groups and for all manufacturing industries includes large amounts of duplication since the products of some industries are used as materials by others. This duplication results, in part, from the addition of related industries representing successive stages in the production of a finished manufactured product. Examples are the addition of flour mills to bakeries in the food group and the addition of pulp mills to paper mills in the paper and allied products group of industries."
+,
+,
+Relative standard error for estimate of total cost of materials  (%) (CSTMTOT_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+"Value added ($1,000) (VALADD)","General Definition
+
+The value added is the measure of manufacturing activities to avoid the duplication in the figure for sales, value of shipments, or revenue.
+
+
+Data are shown in thousands of dollars ($1,000).
+
+
+
+Sector-Specific Information
+
+
+
+Manufacturing Sector
+
+This measure of manufacturing activity is derived by subtracting the cost of materials, supplies, containers, fuel, purchased electricity, and contract work from the value of shipments (products manufactured plus receipts for services rendered). The result of this calculation is adjusted by the addition of value added by merchandising operations (i.e., the difference between the sales value and the cost of merchandise sold without further manufacture, processing, or assembly) plus the net change in finished goods and work-in-process between the beginning- and end-of-year inventories.
+
+""Value added"" avoids the duplication in the figure for value of shipments that results from the use of products of some establishments as materials by others. Value added is considered to be the best value measure available for comparing the relative economic importance of manufacturing among industries and geographic areas."
+,
+Relative standard error for estimate of value added (%) (VALADD_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+"Total capital expenditures (new and used) ($1,000) (CEXTOT)","General Definition
+
+This term refers to the total capital expenditures for buildings, structures, machinery, and equipment (new and used). It includes the current expenditures for property, equipment, and capital improvements that were or will be chargeable to the fixed asset accounts and for which depreciation or amortization accounts are ordinarily maintained.
+
+Data are shown in thousands of dollars ($1,000).
+
+
+Sector-Specific Information
+
+Manufacturing Sector
+
+Total capital expenditures are comprised of two types of expenditures for the Manufacturing Industry:
+
+  *  Capital expenditures for buildings and other structures ($1,000) - New and used buildings and other structures, excluding the value of the land on which structure stand.
+
+  *  Capital expenditures for machinery and equipment ($1,000) - New and used production machinery and equipment, including furniture and fixtures for offices.
+
+
+The capital expenditures for machinery and equipment is further broken down into three different types:
+
+
+  *  Capital expenditures for automobiles, trucks, etc. for highway use ($1,000) - Purchased vehicles which are purchased for highway use and vehicle acquired under a lease-purchase agreement, excluding off-highway vehicles leased.
+
+  *  Capital expenditures for computers and peripheral data processing equipment ($1,000) - Purchased computers and related equipment. 
+
+  *  Capital expenditures for all other machinery and equipment ($1,000) - Additional new and used production machinery and equipment not included in capital expenditures for automobiles or computers and data processing equipment."
+,
+Relative standard error for estimate of total capital expenditures (new and used)  (%) (CEXTOT_S),"This is expressed as a percent of this item's estimate.  Since the estimate is based on a sample, rather than a complete census, it is subject to sampling variability and may differ from results that would have been obtained from a complete census. The relative standard error is a measure of this sampling variability. As calculated for this survey, the relative standard error also partially reflects various response errors and processing errors. Estimates that have large relative standard errors should be used with caution."
+"Range indicating percent of total sales, value of shipments, or revenue imputed (RCPTOT_IMP)","Range indicating percent of total sales, value of shipments, or revenue imputed
+
+General Definition
+
+Range indicating percent of total sales, value of shipments, or revenue that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards,  ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total annual payroll imputed
+
+General Definition
+
+Range indicating percent of annual payroll that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total employees imputed
+
+General Definition
+
+Range indicating percent of total employees that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total NAPCS collection code sales, value of shipments, or revenue imputed
+
+General Definition
+
+Percent of total North American Product Classification System (NAPCS) collection code sales, value of shipments, or revenue that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses."""
+,
+Range indicating percent of total annual payroll imputed (PAYANN_IMP),"Range indicating percent of total sales, value of shipments, or revenue imputed
+
+General Definition
+
+Range indicating percent of total sales, value of shipments, or revenue that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards,  ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total annual payroll imputed
+
+General Definition
+
+Range indicating percent of annual payroll that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total employees imputed
+
+General Definition
+
+Range indicating percent of total employees that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total NAPCS collection code sales, value of shipments, or revenue imputed
+
+General Definition
+
+Percent of total North American Product Classification System (NAPCS) collection code sales, value of shipments, or revenue that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses."""
+,
+Range indicating percent of total employees imputed (EMP_IMP),"Range indicating percent of total sales, value of shipments, or revenue imputed
+
+General Definition
+
+Range indicating percent of total sales, value of shipments, or revenue that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards,  ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total annual payroll imputed
+
+General Definition
+
+Range indicating percent of annual payroll that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total employees imputed
+
+General Definition
+
+Range indicating percent of total employees that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses.""
+
+
+Range indicating percent of total NAPCS collection code sales, value of shipments, or revenue imputed
+
+General Definition
+
+Percent of total North American Product Classification System (NAPCS) collection code sales, value of shipments, or revenue that was imputed based on historic data, industry averages, or other statistical methods and not directly reported nor obtained from ""equivalent quality"" data sources.  Equivalent quality data are data obtained from an alternative source of sufficient quality such that its data are treated as reported data when calculating standard response measures.  For additional information, see Appendix D3-B of the Census Bureau's Statistical Quality Standards, ""Requirements for Calculating and Reporting Response Rates: Economic Surveys and Censuses."""

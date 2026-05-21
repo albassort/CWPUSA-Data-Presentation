@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./alpine.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>[x-cloak]{ display:none }</style>
+    <title>Create Alpine App</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4.3.2/build/index.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alasql@4"></script>
+  </head>
+  <body>
+    <div id="left-right">
+      <div class="Initial-Select">
+        <div x-data="{value : ''}">
+          <select x-model="$store.app.code" @change="getOptions($store.app.code)">
+            <template x-for="option in $store.app.options" :key="option.NAICS">
+              <option :value="option.NAICS" x-text="`${option.NAICS} - ${option.Meaning}`"></option>
+            </template>
+          </select>
+        </div>
+        <div x-data="{value : ''}">
+          <select x-model="$store.app.category" @change="onCategoryChange()">
+            <template :key="option[1]" x-for="option in $store.app.categories">
+              <option :value="option[1]" x-text="option[0]"></option>
+            </template>
+          </select>
+        </div>
+        <div class="pt-8 text-base font-semibold leading-7">
+          <div x-data>
+            <button id="butt" @click="changeAggregate()">
+              toggle aggregate mode
+            </button>
+          </div>
+
+
+          <div x-data>
+            <template x-if="$store.app.aggrigate_mode">
+              <button id="butt" @click="addCode()">
+              add code
+              </button>
+            </template>
+          </div>
+
+        </div>
+      </div>
+      <div x-data class="right"> 
+        <template x-for="(selected, i) in $store.app.selected">
+          <button @click="remove(i)" x-text="`${selected[0]} - ${selected[1]}`"></button>
+        </template>
+      </div>
+    </div>
+    </div>
+    </div>
+
+      <canvas id="chartjs"/>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
+<script>
+  function getOptions(m){
+    if (m == ''){
+      m = '311'
+    }
+  
+    console.log("2!")
+    Alpine.store('app').category = "Value_D"
+    Alpine.store('app').update(m)
+  }
+  function onCategoryChange(){
+  
+    console.log("1!")
+    Alpine.store('app').update(Alpine.store("app").code)
+  }
+  
+  function addCode(){
+      let curent_code = Alpine.store("app").code
+      let category = Alpine.store("app").category
+      Alpine.store("app").selected.push([curent_code, category]);
+      Alpine.store('app').update(null);
+  }
+  function changeAggregate(){
+
+      Alpine.store("app").aggrigate_mode = !Alpine.store("app").aggrigate_mode;
+      const mode = Alpine.store("app").aggrigate_mode
+      if (mode){
+        console.log(1)
+        Alpine.store('app').update(null)
+      }
+      else {
+        console.log(2);
+        Alpine.store('app').update(Alpine.store("app").code)
+      }
+  }
+
+  function remove(i){
+
+    if (Alpine.store('app')["selected"].length == 1){
+      Alpine.store('app')["selected"] = []
+    }
+    else{
+      Alpine.store('app')["selected"].splice(i, 1);
+    }
+
+    if (Alpine.store('app')['aggrigate_mode']){
+      Alpine.store('app').update(null)
+    }
+
+  }
+
+</script>
+<style>
+  .Initial-Select {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width:500%;
+  }
+
+  #left-right {
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    height: 20vh;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .right button {width: 40%; margin-left: auto;}
+</style>
