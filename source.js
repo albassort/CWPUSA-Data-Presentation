@@ -1,0 +1,1 @@
+export const sources = ["Automobile Manufacturing.csv","Consumer Electronics.csv","Medical devices.csv","Petrochemicals manufacturing.csv","Ship and Boat building.csv","Textile Manufacturing.csv","aerospace.csv","food.csv","steel.csv"];

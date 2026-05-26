@@ -1,4 +1,5 @@
 import './index.css'
+import { sources } from './source.js';
 import Alpine from 'alpinejs'
 import fs from "fs/promises";
 
@@ -32,7 +33,6 @@ try{
 
 
 
-let sources = ["food", "steel"]
 await Promise.all([alasql.promise('USE data')]);
 await Promise.all([alasql.promise (`create table if not exists data.data;`)]);
 

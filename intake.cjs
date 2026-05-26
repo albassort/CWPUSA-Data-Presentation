@@ -1,5 +1,5 @@
 const fs = require ("fs");
-
+let outputnames = []
 const columnAliases = {
   "Geographic Area Name" : "State",
   "2017 NAICS code" : "NAICS",
@@ -96,10 +96,14 @@ files.forEach(file => {
     string += char;
   }
 
-
-  fs.writeFileSync(`./data/${file}`, header);
+  fs.touch
+  fs.writeFileSync(`./public/data/${file}`, header);
   // console.log(done);
 
+  outputnames.push(file)
 });
 
+const sources = JSON.stringify(outputnames);
+const exported = `export const sources = ${sources};`
+fs.writeFileSync("source.js", exported)
 
